@@ -5,11 +5,11 @@ body {
   box-sizing: border-box;
 }
 
-/* a {
+ a {
   text-decoration: none;
   color: black;
 }
-*/
+
 ::-webkit-scrollbar {
   width: 0px;
   height: 5px;
@@ -69,7 +69,7 @@ body {
     margin: 10px;
   } 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
   .copyright{
     display:none !important;
   }
