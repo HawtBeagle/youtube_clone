@@ -1,7 +1,6 @@
 import { Navbar ,Feed,VideoDetail,ChannelDetail,SearchFeed} from './components';
 import { Routes, Route } from 'react-router-dom';
 import { Box } from '@mui/material';
-import { useState } from 'react';
 export default function App() {
     return (
       <Box sx={{backgroundColor: 'black'}}>

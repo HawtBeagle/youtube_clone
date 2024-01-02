@@ -6,8 +6,7 @@ import {categories} from '../utils/constants'
 const Sidebar = ({selectedCategory,setselectedCategory}) => {
   return (
       <Stack
-          direction='row'
-          sx={{height:{sx:'auto',md:'93%'},flexDirection:{md:'column'},overflowY: 'auto'}}
+          sx={{height:{xs:'auto',md:'93%'},flexDirection:{sm:'row',md:'column'},overflowY:'auto'}}
       >
           {categories.map((category) => (
               <button className='category-btn' onClick={() => {
