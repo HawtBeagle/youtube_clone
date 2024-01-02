@@ -9,7 +9,6 @@ const Feed = () => {
     fetchFromAPI(`search?part=snippet&q=${selectedCategory}`)
     .then(data=>setvideos(data.items))
   }, [selectedCategory]);
-
   return (
     <Stack sx={{flexDirection:{sx:'column',md:'row'}}}>
       <Box sx={{height:{sx:'auto',md:'89.6vh'},borderRight:'1px solid white',px:{sx:0,md:2}}}>
